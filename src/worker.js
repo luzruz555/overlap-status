@@ -107,7 +107,7 @@ export default {
 
     <!-- Ω 영역 (좌측, 그레고리력) -->
     <rect x="1" y="34" width="208" height="36" fill="rgba(212,160,86,0.04)"/>
-    <text x="14" y="47" font-family="Courier New,monospace" font-size="7" fill="#d4a056" letter-spacing="2">&#937; OMEGA</text>
+    <text x="14" y="47" font-family="Courier New,monospace" font-size="7" fill="#d4a056" letter-spacing="2">&#937; OMEGAΩ</text>
     <text x="14" y="62" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#e8e4d8" letter-spacing="0.5">${esc(d)}</text>
 
     <!-- 수직 구분선 (날짜 섹션) -->
@@ -115,7 +115,7 @@ export default {
 
     <!-- Ψ 영역 (우측, 마야력) -->
     <rect x="210" y="34" width="209" height="36" fill="rgba(90,140,212,0.04)"/>
-    <text x="222" y="47" font-family="Courier New,monospace" font-size="7" fill="#5a8cd4" letter-spacing="2">&#936; PSI</text>
+    <text x="222" y="47" font-family="Courier New,monospace" font-size="7" fill="#5a8cd4" letter-spacing="2">&#936; PSIΨ</text>
     <text x="222" y="62" font-family="Courier New,monospace" font-size="13" font-weight="700" fill="#e8e4d8" letter-spacing="0.5">${esc(mayaDate)}</text>
 
     <!-- ===== 본문 수직 구분선 ===== -->
