@@ -259,36 +259,35 @@ async function handleRequest(request) {
     <!-- 턴 표시 좌측 -->
     <text x="16" y="244" font-family="Courier New,monospace" font-size="7.5" fill="#4a4540" letter-spacing="2.5">TURN</text>
     <line x1="16" y1="247" x2="80" y2="247" stroke="#252320" stroke-width="0.5"/>
-    <text x="16" y="258" font-family="Courier New,monospace" font-size="14" font-weight="700" fill="#f0ece0" letter-spacing="1">T — ${esc(tn)}</text>
+    <text x="16" y="258" font-family="Courier New,monospace" font-size="14" font-weight="700" fill="#f0ece0" letter-spacing="1">${esc(tn)}T</text>
 
     <!-- 턴 구분선 -->
     <line x1="120" y1="234" x2="120" y2="262" stroke="#252320" stroke-width="0.8"/>
 
-    <!-- 턴 우측: 불빛 인디케이터 바 -->
+    <!-- 턴 우측: 불빛 인디케이터 바 (단색) -->
     <text x="132" y="244" font-family="Courier New,monospace" font-size="7" fill="#4a4540" letter-spacing="2">SYSTEM MONITOR</text>
-    <!-- 인디케이터 점들 (깜빡이는 시간 차이) -->
-    <circle cx="132" cy="255" r="3" fill="#4a9a4a">
+    <circle cx="132" cy="255" r="3" fill="#4a4540">
       <animate attributeName="opacity" values="1;0.2;1" dur="1.1s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="143" cy="255" r="3" fill="#4a9a4a">
+    <circle cx="143" cy="255" r="3" fill="#4a4540">
       <animate attributeName="opacity" values="1;0.2;1" dur="1.1s" begin="0.15s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="154" cy="255" r="3" fill="#4a9a4a">
+    <circle cx="154" cy="255" r="3" fill="#4a4540">
       <animate attributeName="opacity" values="1;0.2;1" dur="1.1s" begin="0.3s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="165" cy="255" r="3" fill="#d4a056">
+    <circle cx="165" cy="255" r="3" fill="#4a4540">
       <animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.2s" begin="0.1s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="176" cy="255" r="3" fill="#d4a056">
+    <circle cx="176" cy="255" r="3" fill="#4a4540">
       <animate attributeName="opacity" values="0.8;0.1;0.8" dur="2.2s" begin="0.4s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="187" cy="255" r="3" fill="#5a8cd4">
+    <circle cx="187" cy="255" r="3" fill="#4a4540">
       <animate attributeName="opacity" values="0.7;0.1;0.7" dur="3.3s" begin="0.2s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="198" cy="255" r="3" fill="#5a8cd4">
+    <circle cx="198" cy="255" r="3" fill="#4a4540">
       <animate attributeName="opacity" values="0.7;0.1;0.7" dur="3.3s" begin="0.7s" repeatCount="indefinite"/>
     </circle>
-    <circle cx="209" cy="255" r="3" fill="#e04040">
+    <circle cx="209" cy="255" r="3" fill="#4a4540">
       <animate attributeName="opacity" values="1;0.1;1" dur="1.6s" begin="0.5s" repeatCount="indefinite"/>
     </circle>
 
